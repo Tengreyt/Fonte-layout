@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--dark);
+}
+.conatiner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.conatiner-section{
+    max-width: 1280px;
+    margin: 0 auto;
+}

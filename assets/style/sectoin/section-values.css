@@ -1,0 +1,64 @@
+.values{
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.values-logo{
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+.values-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin-bottom:96px;
+}
+.stability{
+    display: flex;
+    min-width: 530px;
+    min-height: 128px;
+    gap: 30px;
+}
+.stability-img{
+    position: relative;
+}
+.almaz{
+    position: absolute;
+    top: -29px;
+    width: 100px;
+    height: 100px;
+}
+.stability-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+.stability-title{
+    color: var(--lighttext);
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 0;
+}
+.stability-subtitle{
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%; 
+    max-width: 326px;
+    
+}
+/* 2 card */
+.stability-subtitle-ustoi{
+    max-width:  450px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%; 
+}
+/* line-right */
+.line-right{
+    display: flex;
+    justify-content: flex-end;
+}

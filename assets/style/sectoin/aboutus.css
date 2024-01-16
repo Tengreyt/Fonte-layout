@@ -1,0 +1,52 @@
+.aboutus{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 68px;
+}
+.about-row{
+    margin-top: 70px;
+}
+.aboutus-content{
+    display: flex;
+    gap: 50px;
+    margin-top: 33px;
+}
+.work-siti-img{
+    opacity: 0.8;
+    background: url(<path-to-image>);
+    mix-blend-mode: luminosity;
+    min-width: 340px;
+    min-height: 400px;
+}
+.aboutus-content-text{
+    max-width: 700px;
+}
+.aboutus-content-title{
+    color: var(--lighttext);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%; 
+}
+.aboutus-content-btn{
+    display: flex;
+}
+.aboutus-btn{
+    display: flex;
+    align-items: center;
+    padding: 11px 28px 12px 28px;
+    border: 1px solid var( --tertiary);
+    background: var(--primary);
+    box-shadow: 0px 0px 40px 0px var(--secondary);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.aboutus-btn:hover{
+    box-shadow: 0px 1px 45px 1px rgba(255, 102, 0, 0.60);
+}
+.document{
+    padding-right: 10px;
+}
+.aboutus-btn span {
+    color: var(--lighttext);
+    font-size: 14px;
+    font-weight: 600;
+}

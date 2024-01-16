@@ -1,0 +1,34 @@
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    background: #0A0A0A;
+    
+}
+.footer-row{
+    padding-top: 39px;
+    padding-bottom: 74px;
+}
+.footer-title{
+    color: var(--lighttext);
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-subtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 1000px;
+    margin-top: 39px;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.footer-text-two{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+}

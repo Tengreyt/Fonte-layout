@@ -1,0 +1,12 @@
+@import url('./variables.css');
+@import url('./app/header.css');
+@import url('../fonts/font.css');
+@import url('./layout.css');
+@import url('./sectoin/section-intro.css');
+@import url('./sectoin/aboutus.css');
+@import url('./sectoin/section-values.css');
+@import url('./sectoin/section-team.css');
+@import url('./sectoin/section-blog.css');                                      
+@import url('./sectoin/section-contacts.css');
+@import url('./sectoin/section-pre-footer.css');
+@import url('./app/footer.css');

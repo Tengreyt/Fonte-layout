@@ -1,0 +1,58 @@
+.intro{
+    z-index: 1;
+}
+.intro-bg{
+    background-image: url("https://www.figma.com/file/1OiuS20X5GK0Q7o8NitLLy/Fonte?type=design&node-id=663-931&mode=dev");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.arrows-intro{
+    margin-top: 100px;
+}
+.arrow-intro{
+    cursor: pointer;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 40px;
+}
+.intro-title{
+    color: var(--lighttext);
+    font-size: 40px;
+    font-weight: 700;
+}
+.intro-subtitle{
+    color: var(--lighttext);
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 500px;
+}
+.intro-btn{
+    display: flex;
+    
+}
+.btn-intro{
+    padding: 11px 35px 12px 40px;
+    border: 1px solid var(--tertiary);
+    background: var(--primary);
+    box-shadow: 0px 0px 40px 0px  rgba(255, 102, 0, 0.30);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.btn-intro:hover{
+    box-shadow: 0px 1px 45px 1px  rgba(255, 102, 0, 0.60);
+}
+.btn-intro span{
+    color: var(--lighttext);
+    font-size: 14px;
+    font-weight: 500;
+}
+.ellipse{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 76px;
+}

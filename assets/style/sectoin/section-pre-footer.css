@@ -1,0 +1,42 @@
+.pre-footer{
+    font-family: 'Montserrat', sans-serif;
+    background: #141414;
+}
+.pre-footer-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.column-about{
+    display: flex;
+    gap: 76px;
+}
+.column-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column-one span {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.75;
+}
+.column-two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column-two span{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.75;
+}
+/* social-networks */
+.social-networks{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 15px;
+}

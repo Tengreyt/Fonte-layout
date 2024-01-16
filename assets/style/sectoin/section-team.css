@@ -1,0 +1,87 @@
+.team{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.team-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 163px;
+    gap: 80px;
+}
+.team-top{
+    display: flex;
+    flex-direction: column;
+   
+}
+.team-top-logo{
+    max-width: 233.309px;
+    min-height: 29px;
+}
+.team-top-subtitle{
+    padding-top: 35px;
+    max-width: 840px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+/*team-profil======================  */
+.team-profil{
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+.team-profil-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.erzhan-title{
+    color: var(--lighttext);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* img-profil=================== */
+.erzhan{
+    border-radius: 150px;
+    background: url(<path-to-image>);
+    mix-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.erzhan-subtitle{
+    color: var(--lighttext);
+    font-size: 16px;
+    font-weight: 500;
+}
+/* team-bottom=-=================== */
+.team-bottom{
+    display: flex;
+    flex-direction: column;   
+}
+.partners-img{
+    display: flex;
+}
+.partners{
+    max-width: 332px;
+    min-height: 29px;
+}
+.team-bottom{
+    display: block;
+    padding-top: 40px;
+}
+.team-bottom span{
+    color: var(--lighttext);
+    font-size: 28px;
+    font-weight: 500;
+}
+.team-bottom span:nth-child(2){
+    padding-left: 50px;
+}
+/* line-w================== */
+.line-w{
+    display: flex;
+    justify-content: flex-start;
+}
+    

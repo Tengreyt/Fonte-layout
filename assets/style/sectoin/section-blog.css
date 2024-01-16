@@ -1,0 +1,58 @@
+.companys-blog{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.companys-blog-row{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.card-news{
+    max-width: 320px;
+    min-height: 230px;  
+}
+.card-news-title{
+    min-height: 94px;
+    padding-top: 20px;
+    color: var(--lighttext);
+    font-size: 20px;
+    font-weight: 700;
+}
+.detailed{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.detailed-text{
+    color: var(--tertiary);
+    font-size: 12px;
+    font-weight: 600;
+}
+.next-orange{
+    padding-left: 5px;
+}
+/* numbers=============== */
+.numbers{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-right: 90px;
+    margin-bottom: 40px;
+}
+.numbers span{
+    color: var(--lighttext);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.numbers span:nth-child(3){
+    color: var(--tertiary);
+   margin-top: -10px;
+    text-align: center;
+    text-shadow: 0px 0px 40px var(--tertiary);
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
